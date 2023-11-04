@@ -165,7 +165,7 @@ const Home = () => {
           <div class="oneproject">
             <img src="/esports.png" />
             <p style={{fontWeight:"bold"}}>Esports</p>
-            <p>Html, css, react, javascript</p>
+            <p>only frontend</p>
           </div>
         </a>
         <a
@@ -186,7 +186,7 @@ const Home = () => {
         >
           <div class="oneproject">
             <img src="/gfg.png" />
-            <p style={{fontWeight:"bold"}}>Gfg extantion</p>
+            <p style={{fontWeight:"bold"}}>Gfg extension</p>
             <p>javascript</p>
           </div>
         </a>
