@@ -1,0 +1,39 @@
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50%;
+    margin-top: 1.5%;
+    margin-right: 2%;
+    height: 23px;
+}
+
+ul li{
+    display: inline;
+    font-weight: 500;
+    transition: all 1ms ;
+    
+}
+ul li:hover{
+    border-bottom: 2px solid red;
+}
+
+@media (max-width:450px) {
+
+    ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left:2%;
+    margin-top: 5%;
+    margin-right: 2%;
+    height: 23px;
+}
+
+ul li{
+    display: inline;
+    font-weight: 500;
+    transition: all 1ms ;
+}}

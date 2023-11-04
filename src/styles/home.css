@@ -1,0 +1,199 @@
+.hero-section {
+  height: 70vh;
+}
+.ajay {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  z-index: 3;
+}
+.redd {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(255, 0, 38);
+  position: absolute;
+  z-index: 2;
+  left: 71%;
+  top: 20%;
+  border-radius: 500px 500px;
+}
+.main-text {
+  width: 600px;
+  height: auto;
+  text-align: left;
+  margin-top: 240px;
+  margin-left: 300px;
+}
+.education {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom:100px;
+  padding: 40px;
+
+}
+
+.progress-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(255, 0, 38) 74.5%, rgb(163, 163, 163) 0);
+}
+
+.progress-bar-content {
+  content: "74.5%";
+}
+
+.college {
+  width: 400px;
+  height: 200px;
+  padding: 30px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(236, 236, 236);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgb(205, 205, 205);
+}
+
+.progress-bar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(255, 0, 38) 91%, rgb(163, 163, 163) 0);
+}
+
+.progress-bar-content2 {
+  content: "91%";
+}
+
+.progress-bar3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(255, 0, 38) 90.17%, rgb(163, 163, 163) 0);
+}
+
+.progress-bar-content3 {
+  content: "90.17%";
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+  padding-top: 55px;
+  margin-bottom: 40px;
+  margin-bottom:200px;
+}
+.items {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 7px;
+  margin: 20px;
+  box-shadow: 0px 0px 5px rgb(180, 180, 180);
+  height: 50px;
+  border-radius: 5px;
+
+}
+.items img {
+  width: 50px;
+}
+
+.oneproject{
+    width: 200px;
+    margin: 20px;
+    padding: 9px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgb(205, 205, 205);
+
+}
+.oneproject img{
+    width: 150px;
+    
+}
+.oneproject:hover{
+    width: 200px;
+    margin: 20px;
+    padding: 9px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgb(25, 25, 25);
+
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:200px;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:200px;
+}
+.contact img{
+    box-shadow: 0px 0px 5px rgb(180, 180, 180);
+    width:20px;
+}
+
+.contact a{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:450px) {
+
+.ajay {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  z-index: -1;
+  opacity: 1;
+}
+.redd {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 0, 38);
+    position: absolute;
+    z-index: -3;
+    left: 34%;
+    top: 29%;
+    border-radius: 500px 500px;
+    opacity: 1;
+  }
+  .main-text {
+    width: 200px;
+    height: auto;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 30px;
+  }
+}
