@@ -63,27 +63,27 @@ const Home = () => {
             B.Tech
           </p>
           <p>National institute of technology , jalandhar</p>
-          <div className="progress-bar">
+          {/* <div className="progress-bar">
             <div className="progress-bar-content">7.45 cg</div>
-          </div>
+          </div> */}
         </div>
         <div className="college">
           <p style={{ display: "block", width: "400px", fontWeight: "bold" }}>
             12th
           </p>
           <p>Rajat vidhyapeeth sr sec school , Sikar (Raj)</p>
-          <div className="progress-bar2">
+          {/* <div className="progress-bar2">
             <div className="progress-bar-content2">91%</div>
-          </div>
+          </div> */}
         </div>
         <div className="college">
           <p style={{ display: "block", width: "400px", fontWeight: "bold" }}>
             10th
           </p>
           <p>Subhash chandra bose sr sec school ,Sahawa(Raj)</p>
-          <div className="progress-bar3">
+          {/* <div className="progress-bar3">
             <div className="progress-bar-content3">90.17%</div>
-          </div>
+          </div> */}
         </div>
       </div>
 
